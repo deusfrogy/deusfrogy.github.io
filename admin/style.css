@@ -1,0 +1,70 @@
+/* Reset default margin/padding */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+font-family: Arial, sans-serif;
+background-color: #f9f9f9;
+padding: 40px;
+color: #333;
+}
+
+/* Container */
+.container {
+max-width: 800px;
+margin: 0 auto;
+background: #fff;
+padding: 30px;
+border-radius: 8px;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1 {
+font-size: 28px;
+margin-bottom: 20px;
+color: #222;
+}
+
+/* Form labels and inputs */
+label {
+display: block;
+margin-bottom: 6px;
+font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+width: 100%;
+padding: 10px;
+margin-bottom: 15px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+/* Submit button */
+button {
+padding: 12px 20px;
+background-color: #0077cc;
+color: white;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+font-size: 16px;
+}
+
+button:hover {
+background-color: #005fa3;
+}
+
+/* Success message */
+.success {
+color: green;
+margin-top: 15px;
+font-weight: bold;
+}
